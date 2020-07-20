@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		468362B121FF7B0C00D768FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468362B021FF7B0C00D768FE /* AppDelegate.swift */; };
+		468362B621FF7B0C00D768FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468362B421FF7B0C00D768FE /* Main.storyboard */; };
+		468362B821FF7B0D00D768FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468362B721FF7B0D00D768FE /* Assets.xcassets */; };
+		468362BB21FF7B0D00D768FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 468362B921FF7B0D00D768FE /* LaunchScreen.storyboard */; };
+		468362C521FF7B7800D768FE /* LSIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 468362C421FF7B7800D768FE /* LSIPerson.m */; };
+		468362CA21FF82EE00D768FE /* LSIPersonSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 468362C921FF82EE00D768FE /* LSIPersonSearchTableViewController.m */; };
+		5EF0344624C60F040093137A /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468362C621FF80CA00D768FE /* PersonController.swift */; };
+		5EF0344724C611AE0093137A /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468362CB21FF835B00D768FE /* PersonTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		468362AD21FF7B0C00D768FE /* Hybrid Star Wars Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hybrid Star Wars Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		468362B021FF7B0C00D768FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		468362B521FF7B0C00D768FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		468362B721FF7B0D00D768FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		468362BA21FF7B0D00D768FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		468362BC21FF7B0D00D768FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468362C221FF7B7700D768FE /* Hybrid Star Wars Search-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hybrid Star Wars Search-Bridging-Header.h"; sourceTree = "<group>"; };
+		468362C321FF7B7800D768FE /* LSIPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIPerson.h; sourceTree = "<group>"; };
+		468362C421FF7B7800D768FE /* LSIPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIPerson.m; sourceTree = "<group>"; };
+		468362C621FF80CA00D768FE /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
+		468362C821FF82EE00D768FE /* LSIPersonSearchTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIPersonSearchTableViewController.h; sourceTree = "<group>"; };
+		468362C921FF82EE00D768FE /* LSIPersonSearchTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIPersonSearchTableViewController.m; sourceTree = "<group>"; };
+		468362CB21FF835B00D768FE /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		468362AA21FF7B0C00D768FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		468362A421FF7B0C00D768FE = {
+			isa = PBXGroup;
+			children = (
+				468362AF21FF7B0C00D768FE /* Hybrid Star Wars Search */,
+				468362AE21FF7B0C00D768FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		468362AE21FF7B0C00D768FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				468362AD21FF7B0C00D768FE /* Hybrid Star Wars Search.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		468362AF21FF7B0C00D768FE /* Hybrid Star Wars Search */ = {
+			isa = PBXGroup;
+			children = (
+				468362C221FF7B7700D768FE /* Hybrid Star Wars Search-Bridging-Header.h */,
+				46C0FCEA2251F11100088956 /* Model */,
+				46C0FCEC2251F13300088956 /* Model Controller */,
+				46C0FCE92251F10B00088956 /* View */,
+				46C0FCE82251F10300088956 /* View Controller */,
+				46C0FCED2251F14700088956 /* Storybaords */,
+				46C0FCEB2251F11900088956 /* Resources */,
+			);
+			path = "Hybrid Star Wars Search";
+			sourceTree = "<group>";
+		};
+		46C0FCE82251F10300088956 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				468362C821FF82EE00D768FE /* LSIPersonSearchTableViewController.h */,
+				468362C921FF82EE00D768FE /* LSIPersonSearchTableViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		46C0FCE92251F10B00088956 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				468362CB21FF835B00D768FE /* PersonTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46C0FCEA2251F11100088956 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				468362C321FF7B7800D768FE /* LSIPerson.h */,
+				468362C421FF7B7800D768FE /* LSIPerson.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46C0FCEB2251F11900088956 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				468362B021FF7B0C00D768FE /* AppDelegate.swift */,
+				468362B721FF7B0D00D768FE /* Assets.xcassets */,
+				468362BC21FF7B0D00D768FE /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		46C0FCEC2251F13300088956 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+				468362C621FF80CA00D768FE /* PersonController.swift */,
+			);
+			path = "Model Controller";
+			sourceTree = "<group>";
+		};
+		46C0FCED2251F14700088956 /* Storybaords */ = {
+			isa = PBXGroup;
+			children = (
+				468362B421FF7B0C00D768FE /* Main.storyboard */,
+				468362B921FF7B0D00D768FE /* LaunchScreen.storyboard */,
+			);
+			path = Storybaords;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		468362AC21FF7B0C00D768FE /* Hybrid Star Wars Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468362BF21FF7B0D00D768FE /* Build configuration list for PBXNativeTarget "Hybrid Star Wars Search" */;
+			buildPhases = (
+				468362A921FF7B0C00D768FE /* Sources */,
+				468362AA21FF7B0C00D768FE /* Frameworks */,
+				468362AB21FF7B0C00D768FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hybrid Star Wars Search";
+			productName = "Hybrid Star Wars Search";
+			productReference = 468362AD21FF7B0C00D768FE /* Hybrid Star Wars Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		468362A521FF7B0C00D768FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Spencer Curtis";
+				TargetAttributes = {
+					468362AC21FF7B0C00D768FE = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 468362A821FF7B0C00D768FE /* Build configuration list for PBXProject "Hybrid Star Wars Search" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 468362A421FF7B0C00D768FE;
+			productRefGroup = 468362AE21FF7B0C00D768FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				468362AC21FF7B0C00D768FE /* Hybrid Star Wars Search */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		468362AB21FF7B0C00D768FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468362BB21FF7B0D00D768FE /* LaunchScreen.storyboard in Resources */,
+				468362B821FF7B0D00D768FE /* Assets.xcassets in Resources */,
+				468362B621FF7B0C00D768FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		468362A921FF7B0C00D768FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EF0344624C60F040093137A /* PersonController.swift in Sources */,
+				468362C521FF7B7800D768FE /* LSIPerson.m in Sources */,
+				468362CA21FF82EE00D768FE /* LSIPersonSearchTableViewController.m in Sources */,
+				5EF0344724C611AE0093137A /* PersonTableViewCell.swift in Sources */,
+				468362B121FF7B0C00D768FE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		468362B421FF7B0C00D768FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468362B521FF7B0C00D768FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		468362B921FF7B0D00D768FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468362BA21FF7B0D00D768FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		468362BD21FF7B0D00D768FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		468362BE21FF7B0D00D768FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		468362C021FF7B0D00D768FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28B8X634EX;
+				INFOPLIST_FILE = "$(SRCROOT)/Hybrid Star Wars Search/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LambdaSchool.Hybrid-Star-Wars-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hybrid Star Wars Search/Hybrid Star Wars Search-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		468362C121FF7B0D00D768FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 28B8X634EX;
+				INFOPLIST_FILE = "$(SRCROOT)/Hybrid Star Wars Search/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.LambdaSchool.Hybrid-Star-Wars-Search";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hybrid Star Wars Search/Hybrid Star Wars Search-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		468362A821FF7B0C00D768FE /* Build configuration list for PBXProject "Hybrid Star Wars Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468362BD21FF7B0D00D768FE /* Debug */,
+				468362BE21FF7B0D00D768FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		468362BF21FF7B0D00D768FE /* Build configuration list for PBXNativeTarget "Hybrid Star Wars Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468362C021FF7B0D00D768FE /* Debug */,
+				468362C121FF7B0D00D768FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 468362A521FF7B0C00D768FE /* Project object */;
+}
